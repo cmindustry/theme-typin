@@ -7,7 +7,7 @@ dark: false
 # Header
 menu:
   归档: /archives
-  目录: /categories
+  目录: /catalog
   关于: /about
 
 # Your Feed Location
@@ -37,7 +37,7 @@ icons: false
 # NOTICE) Use the fontawesome icon names without the fa- prefix (http://fontawesome.io/cheatsheet/)
 links:
   归档: /archives/
-  目录: /categories
+  目录: /catalog
   关于: /about
 
 # nav position (top, left. top is default)
@@ -54,6 +54,3 @@ gitment:
   client:
     id:
     secret:
-
-# Donate
-donate:

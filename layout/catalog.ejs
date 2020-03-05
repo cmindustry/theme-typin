@@ -1,0 +1,18 @@
+<div class="catalog-container">
+  <%- partial('_partial/header') %>
+  <hr class="header-hr" />
+
+  <% if (site.categories.length){ %>
+  <h3>Categories:</h3>
+  <ul class="category-list">
+    <% site.categories.sort('name').each(function(item){ %> <%
+    if(item.posts.length){ %>
+    <li class="category-list-item">
+      <a href="<%- config.root %><%- item.path %>" title="<%= item.name %>"
+        ><%= item.name %><sup>[<%= item.posts.length %>]</sup></a
+      >
+    </li>
+    <% } %> <% }); %>
+  </ul>
+  <% } %>
+</div>

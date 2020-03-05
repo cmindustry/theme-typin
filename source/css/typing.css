@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 html {
   color: #333;
   background: #fff;
@@ -554,6 +555,7 @@ a:hover {
   transition: color 0.1s linear;
 }
 .archive-container hr,
+.catalog-container hr,
 .archive-footer hr,
 .article .article-footer hr,
 .article hr,
@@ -755,6 +757,7 @@ blockquote {
 .header-hr-left {
   display: none;
 }
+.catalog-container,
 .archive-container,
 .category-container,
 .tag-container {
@@ -767,11 +770,14 @@ blockquote {
   padding-top: 50px;
   max-width: 700px;
 }
+.catalog-container article,
 .archive-container article,
 .category-container article,
 .tag-container article {
   margin-bottom: 15px;
 }
+.catalog-container a,
+.catalog-container a:hover,
 .archive-container a,
 .archive-container a:hover,
 .category-container a,
@@ -780,11 +786,15 @@ blockquote {
 .tag-container a:hover {
   border: 0;
 }
+.catalog-container .header,
 .archive-container .header,
 .category-container .header,
 .tag-container .header {
   font-size: 18px;
 }
+
+.catalog-container .catalog-article-header > a,
+.catalog-container .catalog-article-header > h1,
 .archive-container .archive-article-header > a,
 .archive-container .archive-article-header > h1,
 .category-container .archive-article-header > a,
@@ -794,11 +804,15 @@ blockquote {
   display: inline-block;
   vertical-align: middle;
 }
+
+.catalog-container .catalog-article-header > a,
 .archive-container .archive-article-header > a,
 .category-container .archive-article-header > a,
 .tag-container .archive-article-header > a {
   width: 100px;
 }
+
+.catalog-container .catalog-article-header h1,
 .archive-container .archive-article-header h1,
 .category-container .archive-article-header h1,
 .tag-container .archive-article-header h1 {
@@ -806,10 +820,12 @@ blockquote {
   font-size: 100%;
   margin: 0;
 }
+
+.catalog-container hr,
 .archive-container hr,
 .category-container hr,
 .tag-container hr {
-  width: 60%;
+  width: 80%;
   margin: 20px 0 40px;
   background-image: -webkit-linear-gradient(
     0deg,
@@ -825,6 +841,7 @@ blockquote {
   color: #cacdd0;
 }
 
+.catalog-container .catalog-article-title,
 .archive-container .archive-article-title,
 .category-container .archive-article-title,
 .tag-container .archive-article-title {
@@ -898,7 +915,7 @@ blockquote {
   font-weight: bolder;
 }
 .article .article-title {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 .article a.fancybox,
 .article a.fancybox-item {
@@ -1015,6 +1032,7 @@ blockquote {
 .article .article-meta .article-category,
 .article .article-meta .article-tag-list {
   display: inline-block;
+  color: #4271ae;
 }
 .article .article-meta .article-tag-list-item {
   display: inline-block;
@@ -1263,7 +1281,7 @@ pre .keyword {
     width: 90%;
   }
   .article-title {
-    font-size: 2rem;
+    font-size: 2em;
   }
   .comments {
     width: 90%;
