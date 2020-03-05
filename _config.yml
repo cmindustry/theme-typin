@@ -1,0 +1,59 @@
+# Lang
+language: zh-CN
+
+# Dark Mode
+dark: false
+
+# Header
+menu:
+  归档: /archives
+  目录: /categories
+  关于: /about
+
+# Your Feed Location
+#rss: /atom.xml
+
+# Content
+fancybox: true
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.ico
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+
+# Profile
+nickname: CMIndustry
+description: 仓库
+
+# Load fontawesome icons? Also see the links option
+icons: false
+
+# Footer area links
+# NOTICE) If you set "icons: false" link names will be clear text
+# If "icons: true" link names will interpreted as fontawesome icon names
+# NOTICE) Use the fontawesome icon names without the fa- prefix (http://fontawesome.io/cheatsheet/)
+links:
+  归档: /archives/
+  目录: /categories
+  关于: /about
+
+# nav position (top, left. top is default)
+nav: top
+
+# Info
+archive_footer_content: 警戒せよ。今晩最初のコロシアイが起きる。必ず誰かが誰かを殺す。
+post_footer_content: 警戒せよ。今晩最初のコロシアイが起きる。必ず誰かが誰かを殺す。
+
+# Gitment
+gitment:
+  owner:
+  repo:
+  client:
+    id:
+    secret:
+
+# Donate
+donate:
