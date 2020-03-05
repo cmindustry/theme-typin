@@ -741,10 +741,9 @@ blockquote {
 }
 .home .profile {
   width: 100%;
+  font-size: 16px;
 }
-.home .profile h1 {
-  font-weight: 300;
-}
+
 .nav-left {
   position: absolute;
   left: -100px;
