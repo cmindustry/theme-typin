@@ -6,7 +6,7 @@
     id="article-nav-newer"
     class="article-nav-link-wrap newer"
   >
-    <strong class="article-nav-caption"><%= __('prev') %></strong>
+    <strong class="article-nav-caption"><%= ('< prev') %></strong>
     <div class="article-nav-title">
       <% if (post.prev.title){ %> <%= post.prev.title %> <% } else { %> (no
       title) <% } %>
@@ -20,7 +20,7 @@
     id="article-nav-older"
     class="article-nav-link-wrap older"
   >
-    <strong class="article-nav-caption"><%= __('next') %></strong>
+    <strong class="article-nav-caption"><%= ('next >') %></strong>
     <div class="article-nav-title"><%= post.next.title %></div>
   </a>
   <% } else { %>

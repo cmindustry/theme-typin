@@ -847,6 +847,20 @@ blockquote {
 .tag-container .archive-article-title {
   font-weight: 200;
 }
+
+.catalog-container .catalog {
+  margin: 10px 0 0 10px;
+  color: #777;
+}
+
+.catalog-container .category-list {
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+}
+.catalog-container .category-list .category-list-item {
+  margin: 0.5em 0.5em;
+}
 .archive-container .archive-year-wrap,
 .category-container .archive-year-wrap,
 .tag-container .archive-year-wrap {
@@ -915,7 +929,7 @@ blockquote {
   font-weight: bolder;
 }
 .article .article-title {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .article a.fancybox,
 .article a.fancybox-item {
@@ -1032,7 +1046,6 @@ blockquote {
 .article .article-meta .article-category,
 .article .article-meta .article-tag-list {
   display: inline-block;
-  color: #4271ae;
 }
 .article .article-meta .article-tag-list-item {
   display: inline-block;
@@ -1281,7 +1294,7 @@ pre .keyword {
     width: 90%;
   }
   .article-title {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .comments {
     width: 90%;
