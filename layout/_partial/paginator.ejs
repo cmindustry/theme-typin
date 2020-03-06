@@ -1,0 +1,5 @@
+<% if (page.total > 1){ %>
+<nav class="index-nav">
+  <%- paginator({ prev_text: '<prev ', next_text:' next>', escape:true }) %>
+</nav>
+<% } %>

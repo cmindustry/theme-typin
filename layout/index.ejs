@@ -1,16 +1,35 @@
 <div class="home">
   <div class="content">
     <h1 class="nickname"><%= theme.nickname %></h1>
-    <div class="description">
-      <p><%- markdown(theme.description) %></p>
-    </div>
     <br />
     <div class="profile">
-      <span>Recent update: <%- moment(page.posts.date).fromNow() %></span>
-      <br />
-      <%- list_posts({amount:1}) %>
-      <hr />
+      <span>最近更新: <%- date(page.posts.date) %></span>
     </div>
+    <br />
+
+    <section class="posts">
+      <% page.posts.each(function (post) { %>
+      <article class="post">
+        <div class="post-title">
+          <a class="post-title-link" href="<%- url_for(post.path) %>"
+            ><%= post.title %></a
+          >
+        </div>
+        <div class="post-tag-category">
+          <span>
+            <%- list_categories(post.categories, { show_count: false, class:
+            'article-category', style: 'none', separator: '/' }) %> <%-
+            list_tags(post.tags, { show_count: false, class: 'article-tag' }) %>
+          </span>
+        </div>
+        <div class="post-excerpt">
+          <%- post.excerpt %>
+        </div>
+      </article>
+      <% }) %>
+    </section>
+    <%- partial('_partial/paginator') %>
+    <hr />
   </div>
 </div>
 <ul class="footer-links">

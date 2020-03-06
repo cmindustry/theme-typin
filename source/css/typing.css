@@ -727,6 +727,24 @@ blockquote {
   position: relative;
   margin: 0 auto;
 }
+.home .post-tag-category {
+  font-size: 0.6em;
+  margin-bottom: 8px;
+  color: #aeb4b9;
+}
+
+.home .post-excerpt {
+  text-align: left;
+  font-size: 1em;
+}
+.home .posts .post {
+  margin-top: 2em;
+}
+
+.home .post-title {
+  font-size: 1.3em;
+}
+
 .home h1,
 .home strong {
   color: #222;
@@ -865,6 +883,7 @@ blockquote {
 .tag-container .archive-year-wrap {
   margin-bottom: 20px;
 }
+.home .index-nav,
 .archive-container .page-nav,
 .category-container .page-nav,
 .tag-container .page-nav {
@@ -872,10 +891,17 @@ blockquote {
   margin-top: 30px;
   color: #aeb4b9;
 }
+
+.home .index-nav a,
 .archive-container .page-nav a,
 .category-container .page-nav a,
 .tag-container .page-nav a {
   color: #777;
+}
+
+.home .index-nav,
+.home .index-nav a {
+  font-size: 0.8em;
 }
 .archive-container .extend,
 .archive-container .page-number,
@@ -1042,14 +1068,21 @@ blockquote {
 .article .article-meta .label {
   margin-right: 10px;
 }
+
+.home .article-tag,
+.home .article-category,
 .article .article-meta .article-category,
 .article .article-meta .article-tag-list {
   display: inline-block;
 }
+.home .article-tag-list-item,
+.home .article-category-list-item,
 .article .article-meta .article-tag-list-item {
   display: inline-block;
   margin-right: 5px;
 }
+
+.home .article-tag-list-item:before,
 .article .article-meta .article-tag-list-item:before {
   content: "#";
 }

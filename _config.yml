@@ -6,6 +6,7 @@ dark: false
 
 # Header
 menu:
+  首页: /
   归档: /archives
   目录: /catalog
   关于: /about
@@ -36,6 +37,7 @@ icons: false
 # If "icons: true" link names will interpreted as fontawesome icon names
 # NOTICE) Use the fontawesome icon names without the fa- prefix (http://fontawesome.io/cheatsheet/)
 links:
+  首页: /
   归档: /archives/
   目录: /catalog
   关于: /about
