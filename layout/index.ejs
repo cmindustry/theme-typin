@@ -1,11 +1,9 @@
 <div class="home">
   <div class="content">
     <h1 class="nickname"><%= theme.nickname %></h1>
-    <br />
     <div class="profile">
       <span>最近更新: <%- date(page.posts.date) %></span>
     </div>
-    <br />
 
     <section class="posts">
       <% page.posts.each(function (post) { %>
