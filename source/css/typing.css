@@ -71,9 +71,9 @@ button,
 input,
 select,
 textarea {
-  font: 300 1em/1.8 Noto Sans, Source Han Sans CN, PingFang SC, Ubuntu Mono,
-    Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif,
-    WenQuanYi Micro Hei, sans;
+  font: 300 1em/1.8 PingFang SC, Noto Sans CJK SC, Lantinghei SC,
+    Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei,
+    sans;
 }
 button::-moz-focus-inner,
 input::-moz-focus-inner {
@@ -245,9 +245,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Noto Sans, Source Han Sans CN, PingFang SC, Ubuntu Mono, Verdana,
-    Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif,
-    WenQuanYi Micro Hei, sans-serif;
+  font-family: PingFang SC, Noto Sans CJK SC, Verdana, Helvetica Neue,
+    Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei,
+    sans-serif;
   font-weight: 100;
   color: #000;
   line-height: 1.35;
@@ -603,9 +603,9 @@ h6 {
 }
 body {
   font-family: Baskerville, Hoefler Text, Garamond, Times New Roman,
-    Liberation Serif, CWTEX\\-F, Ubuntu Mono, Noto Serif, Source Han Serif SC,
-    Microsoft Yahei, sans serif;
-  font-size: 20px;
+    Liberation Serif, CWTEX\\-F, Noto Sans CJK SC, PingFang SC, Microsoft Yahei,
+    sans serif;
+  font-size: 16px;
 }
 h1,
 h2,
@@ -726,12 +726,14 @@ blockquote {
   font-size: 0.8em;
   margin-bottom: 8px;
   color: #aeb4b9;
+  font-weight: lighter;
 }
 
 .home .post-excerpt {
   text-align: left;
   font-size: 1em;
   position: relative;
+  font-weight: 300;
 }
 
 .home .article-more-link {
@@ -864,7 +866,7 @@ blockquote {
 .archive-container .archive-article-title,
 .category-container .archive-article-title,
 .tag-container .archive-article-title {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .catalog-container .catalog {
@@ -876,6 +878,7 @@ blockquote {
   margin: 10px;
   padding: 10px;
   list-style: none;
+  font-weight: lighter;
 }
 .catalog-container .category-list .category-list-item {
   margin: 0.5em 0.5em;
@@ -996,6 +999,7 @@ blockquote {
   color: #777;
   font-weight: 400;
 }
+
 .article .article-entry table caption,
 .article .article-entry table td,
 .article .article-entry table th,
@@ -1069,6 +1073,14 @@ blockquote {
 }
 .article .article-meta .label {
   margin-right: 10px;
+}
+
+.home .post-tag-category {
+  font-size: 80%;
+  color: #aeb4b9;
+}
+.home .post-tag-category a {
+  color: #777;
 }
 
 .home .article-tag,
