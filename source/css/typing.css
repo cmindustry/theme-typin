@@ -71,7 +71,7 @@ button,
 input,
 select,
 textarea {
-  font: 300 1em/1.8 PingFang SC, Noto Sans CJK SC, Lantinghei SC,
+  font: 400 1em/1.8 PingFang SC, Noto Sans CJK SC, Lantinghei SC,
     Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei,
     sans;
 }
@@ -614,7 +614,7 @@ h4,
 h5,
 h6 {
   font-family: Baskerville, Georgia, Liberation Serif, Noto Serif,
-    Source Han Serif SC, serif;
+    Noto Serif CJK SC, serif;
 }
 a {
   color: #222;
@@ -693,7 +693,8 @@ blockquote {
 }
 .footer-content {
   margin: 0 auto;
-  text-align: left;
+  font-family: BlinkMacSystemFont, Yu Gothic, Noto Sans CJK JP,
+    Noto Sans Japanese, sans serif;
 }
 .footer-links {
   font-size: 100%;
@@ -738,6 +739,7 @@ blockquote {
 
 .home .article-more-link {
   text-align: right;
+  padding-right: 2em;
   font-size: 1em;
   color: #bbb;
 }
@@ -747,6 +749,7 @@ blockquote {
 
 .home .post-title {
   font-size: 1.3em;
+  font-weight: 300;
 }
 
 .home h1,
@@ -878,7 +881,7 @@ blockquote {
   margin: 10px;
   padding: 10px;
   list-style: none;
-  font-weight: lighter;
+  font-weight: 200;
 }
 .catalog-container .category-list .category-list-item {
   margin: 0.5em 0.5em;
@@ -956,7 +959,7 @@ blockquote {
 .article h4,
 .article h5,
 .article h6 {
-  font-weight: bolder;
+  font-weight: 500;
 }
 .article .article-title {
   font-size: 1.5em;

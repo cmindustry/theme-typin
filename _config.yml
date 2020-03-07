@@ -46,8 +46,8 @@ links:
 nav: top
 
 # Info
-archive_footer_content: 警戒せよ。今晩最初のコロシアイが起きる。必ず誰かが誰かを殺す。
-post_footer_content: 警戒せよ。今晩最初のコロシアイが起きる。必ず誰かが誰かを殺す。
+archive_footer_content: 警戒せよ。今晩最初のコロシアイが起きる。<br>必ず誰かが誰かを殺す。
+post_footer_content: 警戒せよ。今晩最初のコロシアイが起きる。<br>必ず誰かが誰かを殺す。
 
 # Gitment
 gitment:
