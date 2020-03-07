@@ -29,12 +29,7 @@
     <br />
 
     <div class="article-entry typo" itemprop="articleBody">
-      <% if (post.excerpt && index){ %> <%- post.excerpt %> <% if
-      (theme.excerpt_link){ %>
-      <p class="article-more-link">
-        <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
-      </p>
-      <% } %> <% } else { %> <%- post.content %> <% } %>
+      <%- post.content %>
     </div>
     <footer class="article-footer">
       <div class="article-meta">
@@ -48,21 +43,3 @@
   </div>
   <% if (!index){ %> <%- partial('post/nav') %> <% } %>
 </article>
-
-<% if (!index && post.comments && theme.gitment.owner && theme.gitment.repo &&
-theme.gitment.client.id && theme.gitment.client.secret){ %>
-<section id="comments" class="comments">
-  <div id="gitment_container"></div>
-</section>
-<% } %> <% if (!index && post.comments && config.disqus_shortname){ %>
-<section id="comments" class="comments">
-  <div id="disqus_thread">
-    <noscript
-      >Please enable JavaScript to view the
-      <a href="//disqus.com/?ref_noscript"
-        >comments powered by Disqus.</a
-      ></noscript
-    >
-  </div>
-</section>
-<% } %>

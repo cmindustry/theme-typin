@@ -1,7 +1,8 @@
 <% if (is_home()) { %>
 <footer id="footer" class="home-footer footer">
   <div id="copyright" class="copyright">
-    <%= date(new Date(), 'YYYY') %> • <%= config.author || config.title %><br />
+    <%= date(new Date(), 'YYYY') %> • <%-
+    mail_to('cmindustri@outlook.com','CMIndustry') %><br />
     <%= __('powered_by') %>
     <a href="http://hexo.io/" target="_blank">Hexo</a> and
     <a href="https://github.com/geekplux" target="_blank">Typing</a>

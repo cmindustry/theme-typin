@@ -71,8 +71,9 @@ button,
 input,
 select,
 textarea {
-  font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei,
-    Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
+  font: 300 1em/1.8 Noto Sans, Source Han Sans CN, PingFang SC, Ubuntu Mono,
+    Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif,
+    WenQuanYi Micro Hei, sans;
 }
 button::-moz-focus-inner,
 input::-moz-focus-inner {
@@ -244,8 +245,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei,
-    Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+  font-family: Noto Sans, Source Han Sans CN, PingFang SC, Ubuntu Mono, Verdana,
+    Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif,
+    WenQuanYi Micro Hei, sans-serif;
   font-weight: 100;
   color: #000;
   line-height: 1.35;
@@ -600,8 +602,9 @@ h6 {
   transition: all 0.25s ease;
 }
 body {
-  font-family: Baskerville, Times New Roman, Liberation Serif, STFangsong,
-    FangSong, FangSong_GB2312, CWTEX\\-F, serif;
+  font-family: Baskerville, Hoefler Text, Garamond, Times New Roman,
+    Liberation Serif, CWTEX\\-F, Ubuntu Mono, Noto Serif, Source Han Serif SC,
+    Microsoft Yahei, sans serif;
   font-size: 20px;
 }
 h1,
@@ -610,9 +613,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Baskerville, Georgia, Liberation Serif, Kaiti SC, STKaiti,
-    AR PL UKai CN, AR PL UKai HK, AR PL UKai TW, AR PL UKai TW MBE,
-    AR PL KaitiM GB, KaiTi, KaiTi_GB2312, DFKai-SB, TW\\-Kai, serif;
+  font-family: Baskerville, Georgia, Liberation Serif, Noto Serif,
+    Source Han Serif SC, serif;
 }
 a {
   color: #222;
@@ -730,6 +732,12 @@ blockquote {
   text-align: left;
   font-size: 1em;
   position: relative;
+}
+
+.home .article-more-link {
+  text-align: right;
+  font-size: 1em;
+  color: #bbb;
 }
 .home .posts .post {
   margin-top: 2em;
@@ -895,7 +903,7 @@ blockquote {
 
 .home .index-nav,
 .home .index-nav a {
-  font-size: 0.9em;
+  font-size: 18px;
 }
 .archive-container .extend,
 .archive-container .page-number,
