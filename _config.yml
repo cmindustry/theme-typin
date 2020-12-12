@@ -12,7 +12,7 @@ menu:
   关于: /about
 
 # Your Feed Location
-#rss: /atom.xml
+rss: /atom.xml
 
 # Content
 fancybox: true

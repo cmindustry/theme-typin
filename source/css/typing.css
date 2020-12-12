@@ -603,8 +603,8 @@ h6 {
 }
 body {
   font-family: Baskerville, Hoefler Text, Garamond, Times New Roman,
-    Liberation Serif, CWTEX\\-F, Noto Sans CJK SC, PingFang SC, Microsoft Yahei,
-    sans serif;
+    Liberation Sans, CWTEX\\-F, Source Sans Pro, Noto Sans CJK, Noto Sans CJK SC,
+    Noto Sans, Noto Sans Pro, PingFang SC, sans, sans-serif;
   font-size: 16px;
 }
 h1,
@@ -613,8 +613,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Baskerville, Georgia, Liberation Serif, Noto Serif,
-    Noto Serif CJK SC, serif;
+  font-family: Baskerville, Georgia, Liberation Serif, Noto Sans Display, Roboto,
+    serif;
 }
 a {
   color: #222;
@@ -737,6 +737,11 @@ blockquote {
   font-weight: 300;
 }
 
+.home .post-excerpt a,
+.home .post-title a {
+  border-bottom: none;
+}
+
 .home .article-more-link {
   text-align: right;
   padding-right: 2em;
@@ -766,7 +771,7 @@ blockquote {
 }
 .home .profile {
   width: 100%;
-  font-size: 16px;
+  font-size: 0.8em;
 }
 
 .nav-left {
@@ -816,7 +821,14 @@ blockquote {
 .tag-container .header {
   font-size: 18px;
 }
-
+.catalog-container .catalog-sub-container {
+  width: 50%;
+  float: left;
+}
+.catalog-container .catalog-sub-container2 {
+  margin-left: 0;
+  padding-top: 5px;
+}
 .catalog-container .catalog-article-header > a,
 .catalog-container .catalog-article-header > h1,
 .archive-container .archive-article-header > a,
@@ -877,12 +889,14 @@ blockquote {
   color: #777;
 }
 
+.catalog-container .tag-list,
 .catalog-container .category-list {
   margin: 10px;
   padding: 10px;
   list-style: none;
   font-weight: 200;
 }
+.catalog-container .tag-list .tag-list-item,
 .catalog-container .category-list .category-list-item {
   margin: 0.5em 0.5em;
 }
